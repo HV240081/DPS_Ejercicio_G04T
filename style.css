@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#CM240108 {
+    background: linear-gradient(135deg, #8343a2, #c195f3);
+    color: rgb(8, 8, 8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+#CM240108 h2 {
+    margin-bottom: 10px;
+}
+
+#CM240108 p {
+    font-size: 18px;
+}
