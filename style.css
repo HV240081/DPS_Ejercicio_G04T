@@ -26,15 +26,11 @@
 #HV240081:hover {
     transform: scale(1.05); 
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +54,11 @@ p {
     color: #666;
     font-size: 16px;
 }
-#CM240108{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background: linear-gradient(to right, #1e3c72, #2a5298);
     font-family: Arial, sans-serif;
     color: white;
@@ -78,7 +78,13 @@ h1 {
     color: #ffcc00;
     font-weight: bold;
 }
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
 }
 
@@ -99,7 +105,6 @@ h1 {
 #CM240108 p {
     font-size: 18px;
 }
-
 #HP240512 {
     background: linear-gradient(135deg, #00796b, #004d40);
     border: 3px solid #00bfa5;
