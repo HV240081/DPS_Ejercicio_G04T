@@ -1,0 +1,28 @@
+#HV240081 {
+    background: linear-gradient(135deg, #4facfe, #00f2fe); /* Degradado azul */
+    padding: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center;
+    max-width: 400px; /* Ancho máximo */
+    margin: 20px auto; /* Centrado */
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones */
+}
+
+#HV240081 h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra en el texto */
+}
+
+#HV240081 p {
+    color: #f0f0f0;
+    font-size: 18px;
+}
+
+#HV240081:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
