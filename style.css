@@ -1,20 +1,20 @@
 #HV240081 {
-    background: linear-gradient(135deg, #4facfe, #00f2fe); /* Degradado azul */
+    background: linear-gradient(135deg, #6f480c, #bdae8f); 
     padding: 20px;
-    border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 15px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
     text-align: center;
-    max-width: 400px; /* Ancho máximo */
-    margin: 20px auto; /* Centrado */
+    max-width: 400px;
+    margin: 20px auto; 
     font-family: Arial, sans-serif;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 #HV240081 h2 {
     color: white;
     font-size: 24px;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra en el texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
 #HV240081 p {
@@ -23,6 +23,6 @@
 }
 
 #HV240081:hover {
-    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+    transform: scale(1.05); 
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
